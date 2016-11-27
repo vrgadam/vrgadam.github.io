@@ -4,23 +4,24 @@
 Copy and paste the following code snippet to the *cjs* Chrome extension.
 
 	(function () {
-	    function loadScript(url, callback) {
-	        var script = document.createElement("script")
-	        script.type = "text/javascript";
+		var logStyle = 'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9';
 
-	        script.onload = function () {
+	    function loadScript(url, callback) {
+	        var script = document.createElement('script');
+	        script.type = 'text/javascript';
+
+	        script.onload = function() {
 	            callback();
 	        };
 
 	        script.src = url;
-	        document.getElementsByTagName("head")[0].appendChild(script);
+	        document.getElementsByTagName('head')[0].appendChild(script);
 	    }
 
-	    loadScript("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js", function () {
-	        loadScript('//localhost:8000/script.js', function() {
+	    loadScript('https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', function() {
+	        loadScript('https://s3.amazonaws.com/sspinc-usability/outfitmaker/nordstrom-rack/script.js', function() {
 	            console.clear();
-	            console.log('%cUSER TESTING SCRIPT LOADED', 
-	            	'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9');
+	            console.log('%cUSER TESTING SCRIPT LOADED', logStyle);
 	        })
 	    });
 	})();
