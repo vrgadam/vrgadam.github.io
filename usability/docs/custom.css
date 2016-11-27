@@ -1,10 +1,20 @@
 body {
-	background-image: none;
+    background-image: none;
 }
 
 .navbar {
+    background: #2d2d2d;
+}
+
+.navbar-brand:before {
+    content: "\f007";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-size: 23px;
+    margin-right: 10px;
+    color: #bdbdbd;
 }
 
 footer {
-	display: none;
+    display: none;
 }
