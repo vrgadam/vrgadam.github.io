@@ -1,0 +1,49 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Usability testing instructions\n\n\nInject script\n\n\nCopy and paste the following code snippet to the \ncjs\n Chrome extension.\n\n\n(function () {\n    function loadScript(url, callback) {\n        var script = document.createElement(\"script\")\n        script.type = \"text/javascript\";\n\n        script.onload = function () {\n            callback();\n        };\n\n        script.src = url;\n        document.getElementsByTagName(\"head\")[0].appendChild(script);\n    }\n\n    loadScript(\"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js\", function () {\n        loadScript('//localhost:8000/script.js', function() {\n            console.clear();\n            console.log('%cUSER TESTING SCRIPT LOADED', \n                'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9');\n        })\n    });\n})();\n\n\n\nVersion 1\n\n\nIf any items are locked on the first page, the user can navigate to the second page, on which items can be purchased.\n\n\nDeveloper console command:\n\n\nlocalStorage.omVersion = 1\n\n\n\nVersion 2\n\n\nIf any items are locked on the first page, \nSave outfit\n button becomes available. Saved outfits can be seen on the second page.\n\n\nDeveloper console command:\n\n\nlocalStorage.omVersion = 2\n\n\n\nVersion 3\n\n\nNo second screen is available, the user can only generate outfits and navigate to them from the first page.\n\n\nDeveloper console command:\n\n\nlocalStorage.omVersion = 3", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#usability-testing-instructions", 
+            "text": "", 
+            "title": "Usability testing instructions"
+        }, 
+        {
+            "location": "/#inject-script", 
+            "text": "Copy and paste the following code snippet to the  cjs  Chrome extension.  (function () {\n    function loadScript(url, callback) {\n        var script = document.createElement(\"script\")\n        script.type = \"text/javascript\";\n\n        script.onload = function () {\n            callback();\n        };\n\n        script.src = url;\n        document.getElementsByTagName(\"head\")[0].appendChild(script);\n    }\n\n    loadScript(\"https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js\", function () {\n        loadScript('//localhost:8000/script.js', function() {\n            console.clear();\n            console.log('%cUSER TESTING SCRIPT LOADED', \n                'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9');\n        })\n    });\n})();", 
+            "title": "Inject script"
+        }, 
+        {
+            "location": "/#version-1", 
+            "text": "If any items are locked on the first page, the user can navigate to the second page, on which items can be purchased.", 
+            "title": "Version 1"
+        }, 
+        {
+            "location": "/#developer-console-command", 
+            "text": "localStorage.omVersion = 1", 
+            "title": "Developer console command:"
+        }, 
+        {
+            "location": "/#version-2", 
+            "text": "If any items are locked on the first page,  Save outfit  button becomes available. Saved outfits can be seen on the second page.", 
+            "title": "Version 2"
+        }, 
+        {
+            "location": "/#developer-console-command_1", 
+            "text": "localStorage.omVersion = 2", 
+            "title": "Developer console command:"
+        }, 
+        {
+            "location": "/#version-3", 
+            "text": "No second screen is available, the user can only generate outfits and navigate to them from the first page.", 
+            "title": "Version 3"
+        }, 
+        {
+            "location": "/#developer-console-command_2", 
+            "text": "localStorage.omVersion = 3", 
+            "title": "Developer console command:"
+        }
+    ]
+}
