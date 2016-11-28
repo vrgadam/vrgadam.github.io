@@ -48,24 +48,24 @@ No second screen is available, the user can only generate outfits and navigate t
 
 ### Header
 
-**Version 1** - Outfit Maker logo with lines:
+**Variant 1** - Outfit Maker logo with lines:
 	
 	delete localStorage.omVariantHeader
 
-**Version 2** - *"Make an Outfit"* text with lines:
+**Variant 2** - *"Make an Outfit"* text with lines:
 	
 	localStorage.omVariantHeader = 'makeoutfit'
 
 ### Match cards
 
-**Version 1** - Default version with the locks in the corners:
+**Variant 1** - Default Variant with the locks in the corners:
 
 	localStorage.omCardVariant = 1
 
-![Match Card - Version 1](cardv1.png)
+![Match Card - Variant 1](cardv1.png)
 
-**Version 2** - *"Lock item"/"Unlock item"* button appears on cards on hover with tooltip:
+**Variant 2** - *"Lock item"/"Unlock item"* button appears on cards on hover with tooltip:
 
 	localStorage.omCardVariant = 2
 
-![Match Card - Version 2](cardv2.png)
+![Match Card - Variant 2](cardv2.png)
