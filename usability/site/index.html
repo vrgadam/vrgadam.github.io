@@ -65,7 +65,7 @@
 <h1 id="om-prototype-documentation">OM prototype documentation</h1>
 <h2 id="inject-script">Inject script</h2>
 <p>Copy and paste the following code snippet to the <em>cjs</em> Chrome extension.</p>
-<pre><code>(function () {
+<pre><code>(function() {
     var logStyle = 'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9';
 
     function loadScript(url, callback) {
@@ -90,36 +90,33 @@
 </code></pre>
 <h2 id="version-1">Version 1</h2>
 <p>If any items are locked on the first page, the user can navigate to the second page, on which items can be purchased.</p>
-<h4 id="developer-console-command">Developer console command:</h4>
 <pre><code>localStorage.omVersion = 1
 </code></pre>
 <h2 id="version-2">Version 2</h2>
 <p>If any items are locked on the first page, <code>Save outfit</code> button becomes available. Saved outfits can be seen on the second page.</p>
-<h4 id="developer-console-command_1">Developer console command:</h4>
 <pre><code>localStorage.omVersion = 2
 </code></pre>
 <h2 id="version-3">Version 3</h2>
 <p>No second screen is available, the user can only generate outfits and navigate to them from the first page.</p>
-<h4 id="developer-console-command_2">Developer console command:</h4>
 <pre><code>localStorage.omVersion = 3
 </code></pre>
 <h2 id="ui-variants">UI Variants</h2>
 <h3 id="header">Header</h3>
-<h5 id="outfit-maker-logo-with-lines">Outfit Maker logo with lines:</h5>
+<p><strong>Variant 1</strong> - Outfit Maker logo with lines:</p>
 <pre><code>delete localStorage.omVariantHeader
 </code></pre>
-<h5 id="make-an-outfit-text-with-lines"><em>"Make an Outfit"</em> text with lines:</h5>
+<p><strong>Variant 2</strong> - <em>"Make an Outfit"</em> text with lines:</p>
 <pre><code>localStorage.omVariantHeader = 'makeoutfit'
 </code></pre>
 <h3 id="match-cards">Match cards</h3>
-<h5 id="default-version-with-the-locks-in-the-corners">Default version with the locks in the corners:</h5>
+<p><strong>Variant 1</strong> - Default Variant with the locks in the corners:</p>
 <pre><code>localStorage.omCardVariant = 1
 </code></pre>
-<p><img alt="Match Card - Version 1" src="./cardv1.png" /></p>
-<h5 id="lock-itemunlock-item-button-appears-on-cards-on-hover-with-tooltip"><em>"Lock item"/"Unlock item"</em> button appears on cards on hover with tooltip:</h5>
+<p><img alt="Match Card - Variant 1" src="./cardv1.png" /></p>
+<p><strong>Variant 2</strong> - <em>"Lock item"/"Unlock item"</em> button appears on cards on hover with tooltip:</p>
 <pre><code>localStorage.omCardVariant = 2
 </code></pre>
-<p><img alt="Match Card - Version 2" src="./cardv2.png" /></p></div>
+<p><img alt="Match Card - Variant 2" src="./cardv2.png" /></p></div>
         </div>
 
         <footer class="col-md-12">
@@ -159,5 +156,5 @@
 
 <!--
 MkDocs version : 0.16.0
-Build Date UTC : 2016-11-28 18:06:47
+Build Date UTC : 2016-11-28 21:49:31
 -->

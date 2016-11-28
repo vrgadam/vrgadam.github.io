@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "OM prototype documentation\n\n\nInject script\n\n\nCopy and paste the following code snippet to the \ncjs\n Chrome extension.\n\n\n(function () {\n    var logStyle = 'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9';\n\n    function loadScript(url, callback) {\n        var script = document.createElement('script');\n        script.type = 'text/javascript';\n\n        script.onload = function() {\n            callback();\n        };\n\n        script.src = url;\n        document.getElementsByTagName('head')[0].appendChild(script);\n    }\n\n    loadScript('https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', function() {\n        loadScript('https://s3.amazonaws.com/sspinc-usability/outfitmaker/nordstrom-rack/script.js', function() {\n            console.clear();\n            console.log('%cUSER TESTING SCRIPT LOADED', logStyle);\n        })\n    });\n})();\n\n\n\nVersion 1\n\n\nIf any items are locked on the first page, the user can navigate to the second page, on which items can be purchased.\n\n\nDeveloper console command:\n\n\nlocalStorage.omVersion = 1\n\n\n\nVersion 2\n\n\nIf any items are locked on the first page, \nSave outfit\n button becomes available. Saved outfits can be seen on the second page.\n\n\nDeveloper console command:\n\n\nlocalStorage.omVersion = 2\n\n\n\nVersion 3\n\n\nNo second screen is available, the user can only generate outfits and navigate to them from the first page.\n\n\nDeveloper console command:\n\n\nlocalStorage.omVersion = 3\n\n\n\nUI Variants\n\n\nHeader\n\n\nOutfit Maker logo with lines:\n\n\ndelete localStorage.omVariantHeader\n\n\n\n\"Make an Outfit\"\n text with lines:\n\n\nlocalStorage.omVariantHeader = 'makeoutfit'\n\n\n\nMatch cards\n\n\nDefault version with the locks in the corners:\n\n\nlocalStorage.omCardVariant = 1\n\n\n\n\n\n\"Lock item\"/\"Unlock item\"\n button appears on cards on hover with tooltip:\n\n\nlocalStorage.omCardVariant = 2", 
+            "text": "OM prototype documentation\n\n\nInject script\n\n\nCopy and paste the following code snippet to the \ncjs\n Chrome extension.\n\n\n(function() {\n    var logStyle = 'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9';\n\n    function loadScript(url, callback) {\n        var script = document.createElement('script');\n        script.type = 'text/javascript';\n\n        script.onload = function() {\n            callback();\n        };\n\n        script.src = url;\n        document.getElementsByTagName('head')[0].appendChild(script);\n    }\n\n    loadScript('https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', function() {\n        loadScript('https://s3.amazonaws.com/sspinc-usability/outfitmaker/nordstrom-rack/script.js', function() {\n            console.clear();\n            console.log('%cUSER TESTING SCRIPT LOADED', logStyle);\n        })\n    });\n})();\n\n\n\nVersion 1\n\n\nIf any items are locked on the first page, the user can navigate to the second page, on which items can be purchased.\n\n\nlocalStorage.omVersion = 1\n\n\n\nVersion 2\n\n\nIf any items are locked on the first page, \nSave outfit\n button becomes available. Saved outfits can be seen on the second page.\n\n\nlocalStorage.omVersion = 2\n\n\n\nVersion 3\n\n\nNo second screen is available, the user can only generate outfits and navigate to them from the first page.\n\n\nlocalStorage.omVersion = 3\n\n\n\nUI Variants\n\n\nHeader\n\n\nVariant 1\n - Outfit Maker logo with lines:\n\n\ndelete localStorage.omVariantHeader\n\n\n\nVariant 2\n - \n\"Make an Outfit\"\n text with lines:\n\n\nlocalStorage.omVariantHeader = 'makeoutfit'\n\n\n\nMatch cards\n\n\nVariant 1\n - Default Variant with the locks in the corners:\n\n\nlocalStorage.omCardVariant = 1\n\n\n\n\n\nVariant 2\n - \n\"Lock item\"/\"Unlock item\"\n button appears on cards on hover with tooltip:\n\n\nlocalStorage.omCardVariant = 2", 
             "title": "Home"
         }, 
         {
@@ -12,38 +12,23 @@
         }, 
         {
             "location": "/#inject-script", 
-            "text": "Copy and paste the following code snippet to the  cjs  Chrome extension.  (function () {\n    var logStyle = 'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9';\n\n    function loadScript(url, callback) {\n        var script = document.createElement('script');\n        script.type = 'text/javascript';\n\n        script.onload = function() {\n            callback();\n        };\n\n        script.src = url;\n        document.getElementsByTagName('head')[0].appendChild(script);\n    }\n\n    loadScript('https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', function() {\n        loadScript('https://s3.amazonaws.com/sspinc-usability/outfitmaker/nordstrom-rack/script.js', function() {\n            console.clear();\n            console.log('%cUSER TESTING SCRIPT LOADED', logStyle);\n        })\n    });\n})();", 
+            "text": "Copy and paste the following code snippet to the  cjs  Chrome extension.  (function() {\n    var logStyle = 'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9';\n\n    function loadScript(url, callback) {\n        var script = document.createElement('script');\n        script.type = 'text/javascript';\n\n        script.onload = function() {\n            callback();\n        };\n\n        script.src = url;\n        document.getElementsByTagName('head')[0].appendChild(script);\n    }\n\n    loadScript('https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', function() {\n        loadScript('https://s3.amazonaws.com/sspinc-usability/outfitmaker/nordstrom-rack/script.js', function() {\n            console.clear();\n            console.log('%cUSER TESTING SCRIPT LOADED', logStyle);\n        })\n    });\n})();", 
             "title": "Inject script"
         }, 
         {
             "location": "/#version-1", 
-            "text": "If any items are locked on the first page, the user can navigate to the second page, on which items can be purchased.", 
+            "text": "If any items are locked on the first page, the user can navigate to the second page, on which items can be purchased.  localStorage.omVersion = 1", 
             "title": "Version 1"
         }, 
         {
-            "location": "/#developer-console-command", 
-            "text": "localStorage.omVersion = 1", 
-            "title": "Developer console command:"
-        }, 
-        {
             "location": "/#version-2", 
-            "text": "If any items are locked on the first page,  Save outfit  button becomes available. Saved outfits can be seen on the second page.", 
+            "text": "If any items are locked on the first page,  Save outfit  button becomes available. Saved outfits can be seen on the second page.  localStorage.omVersion = 2", 
             "title": "Version 2"
         }, 
         {
-            "location": "/#developer-console-command_1", 
-            "text": "localStorage.omVersion = 2", 
-            "title": "Developer console command:"
-        }, 
-        {
             "location": "/#version-3", 
-            "text": "No second screen is available, the user can only generate outfits and navigate to them from the first page.", 
+            "text": "No second screen is available, the user can only generate outfits and navigate to them from the first page.  localStorage.omVersion = 3", 
             "title": "Version 3"
-        }, 
-        {
-            "location": "/#developer-console-command_2", 
-            "text": "localStorage.omVersion = 3", 
-            "title": "Developer console command:"
         }, 
         {
             "location": "/#ui-variants", 
@@ -52,33 +37,13 @@
         }, 
         {
             "location": "/#header", 
-            "text": "", 
+            "text": "Variant 1  - Outfit Maker logo with lines:  delete localStorage.omVariantHeader  Variant 2  -  \"Make an Outfit\"  text with lines:  localStorage.omVariantHeader = 'makeoutfit'", 
             "title": "Header"
         }, 
         {
-            "location": "/#outfit-maker-logo-with-lines", 
-            "text": "delete localStorage.omVariantHeader", 
-            "title": "Outfit Maker logo with lines:"
-        }, 
-        {
-            "location": "/#make-an-outfit-text-with-lines", 
-            "text": "localStorage.omVariantHeader = 'makeoutfit'", 
-            "title": "\"Make an Outfit\" text with lines:"
-        }, 
-        {
             "location": "/#match-cards", 
-            "text": "", 
+            "text": "Variant 1  - Default Variant with the locks in the corners:  localStorage.omCardVariant = 1   Variant 2  -  \"Lock item\"/\"Unlock item\"  button appears on cards on hover with tooltip:  localStorage.omCardVariant = 2", 
             "title": "Match cards"
-        }, 
-        {
-            "location": "/#default-version-with-the-locks-in-the-corners", 
-            "text": "localStorage.omCardVariant = 1", 
-            "title": "Default version with the locks in the corners:"
-        }, 
-        {
-            "location": "/#lock-itemunlock-item-button-appears-on-cards-on-hover-with-tooltip", 
-            "text": "localStorage.omCardVariant = 2", 
-            "title": "\"Lock item\"/\"Unlock item\" button appears on cards on hover with tooltip:"
         }
     ]
 }
