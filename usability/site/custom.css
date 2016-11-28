@@ -6,13 +6,17 @@ body {
     background: #2d2d2d;
 }
 
-.navbar-brand:before {
-    content: "\f007";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-size: 23px;
-    margin-right: 10px;
-    color: #bdbdbd;
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+    background-color: #3e3e3e;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #3e3e3e;
 }
 
 footer {

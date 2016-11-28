@@ -1,4 +1,4 @@
-# Usability testing instructions
+# OM prototype documentation
 
 ## Inject script
 Copy and paste the following code snippet to the *cjs* Chrome extension.
@@ -49,3 +49,29 @@ No second screen is available, the user can only generate outfits and navigate t
 #### Developer console command:
 
 	localStorage.omVersion = 3
+
+## UI Variants
+
+### Header
+
+##### Outfit Maker logo with lines:
+	
+	delete localStorage.omVariantHeader
+
+##### *"Make an Outfit"* text with lines:
+	
+	localStorage.omVariantHeader = 'makeoutfit'
+
+### Match cards
+
+##### Default version with the locks in the corners:
+
+	localStorage.omCardVariant = 1
+
+![Match Card - Version 1](cardv1.png)
+
+##### *"Lock item"/"Unlock item"* button appears on cards on hover with tooltip:
+
+	localStorage.omCardVariant = 2
+
+![Match Card - Version 2](cardv2.png)
