@@ -3,7 +3,7 @@
 ## Inject script
 Copy and paste the following code snippet to the *cjs* Chrome extension.
 
-	(function () {
+	(function() {
 		var logStyle = 'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9';
 
 	    function loadScript(url, callback) {
@@ -30,15 +30,11 @@ Copy and paste the following code snippet to the *cjs* Chrome extension.
 
 If any items are locked on the first page, the user can navigate to the second page, on which items can be purchased.
 
-#### Developer console command:
-
 	localStorage.omVersion = 1
 
 ## Version 2
 
 If any items are locked on the first page, `Save outfit` button becomes available. Saved outfits can be seen on the second page.
-
-#### Developer console command:
 
 	localStorage.omVersion = 2
 
@@ -46,31 +42,29 @@ If any items are locked on the first page, `Save outfit` button becomes availabl
 
 No second screen is available, the user can only generate outfits and navigate to them from the first page.
 
-#### Developer console command:
-
 	localStorage.omVersion = 3
 
 ## UI Variants
 
 ### Header
 
-##### Outfit Maker logo with lines:
+**Version 1** - Outfit Maker logo with lines:
 	
 	delete localStorage.omVariantHeader
 
-##### *"Make an Outfit"* text with lines:
+**Version 2** - *"Make an Outfit"* text with lines:
 	
 	localStorage.omVariantHeader = 'makeoutfit'
 
 ### Match cards
 
-##### Default version with the locks in the corners:
+**Version 1** - Default version with the locks in the corners:
 
 	localStorage.omCardVariant = 1
 
 ![Match Card - Version 1](cardv1.png)
 
-##### *"Lock item"/"Unlock item"* button appears on cards on hover with tooltip:
+**Version 2** - *"Lock item"/"Unlock item"* button appears on cards on hover with tooltip:
 
 	localStorage.omCardVariant = 2
 
