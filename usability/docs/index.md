@@ -48,13 +48,81 @@ No second screen is available, the user can only generate outfits and navigate t
 
 ### Header
 
-**Variant 1** - Outfit Maker logo with lines:
-	
-	delete localStorage.omVariantHeader
+#### Header text
 
-**Variant 2** - *"Make an Outfit"* text with lines:
-	
-	localStorage.omVariantHeader = 'makeoutfit'
+Sets the displayed text (except for the logo's text, which is always *Outfit Maker*) of the section header. If only logo should be shown, this can be disabled.
+
+![Header text](img/header-text.png)
+
+(From this point refered to as *Header text*)
+
+**Enable:**
+
+	localStorage.omHeaderText = "Find matching outfits"
+
+**Disable:**
+
+	delete localStorage.omHeaderText
+
+#### Logo
+
+Sets the visibility of the Outfit Maker logo in the section header.
+
+![OM logo](img/om-logo.png)
+
+**Enable:**
+
+	localStorage.omHeaderLogo = true
+
+**Disable:**
+
+	localStorage.omHeaderLogo = false
+
+#### Order of the logo
+
+Sets whether the logo is displayed before or after the *Header text*, provided that *Header text* is set (*localStorage.omHeaderText*).
+
+**Before Header text:**
+
+	localStorage.omHeaderLogoFirst = true
+
+![Logo first](img/logo-first.png)
+
+**After Header text:**
+
+	localStorage.omHeaderLogoFirst = false
+
+![Logo second](img/logo-second.png)
+
+#### *New!* label
+
+Sets the visibility of the *New!* label in the section header. If Outfit Maker logo is displayed, the label will follow the logo, otherwise it will follow the *Header text*.
+
+![New label](img/new-label.png)
+
+**Enable:**
+
+	localStorage.omHeaderNew = true
+
+**Disable:**
+
+	localStorage.omHeaderNew = false
+
+#### Header style
+
+**Variant 1** - Has separator lines before and after section header (like *You May Also Like* on the PDP):
+
+	localStorage.omHeaderStyle = 1
+
+![Lined header](img/header-lined.png)
+
+> Note: Only one line of text can be displayed, so either *Header text* or the Outfit Maker is shown, but needs to be set explicitly: if the logo should be shown, disable *Header text* and vice versa.
+
+**Variant 2** - Doesn't have separator lines, section header is aligned to the center:
+
+	localStorage.omHeaderStyle = 2
+
+![Lined header](img/header-no-line.png)
 
 ### Match cards
 
@@ -62,10 +130,10 @@ No second screen is available, the user can only generate outfits and navigate t
 
 	localStorage.omCardVariant = 1
 
-![Match Card - Variant 1](cardv1.png)
+![Match Card - Variant 1](img/cardv1.png)
 
 **Variant 2** - *"Lock item"/"Unlock item"* button appears on cards on hover with tooltip:
 
 	localStorage.omCardVariant = 2
 
-![Match Card - Variant 2](cardv2.png)
+![Match Card - Variant 2](img/cardv2.png)

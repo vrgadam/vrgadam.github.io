@@ -102,21 +102,65 @@
 </code></pre>
 <h2 id="ui-variants">UI Variants</h2>
 <h3 id="header">Header</h3>
-<p><strong>Variant 1</strong> - Outfit Maker logo with lines:</p>
-<pre><code>delete localStorage.omVariantHeader
+<h4 id="header-text">Header text</h4>
+<p>Sets the displayed text (except for the logo's text, which is always <em>Outfit Maker</em>) of the section header. If only logo should be shown, this can be disabled.</p>
+<p><img alt="Header text" src="./img/header-text.png" /></p>
+<p>(From this point refered to as <em>Header text</em>)</p>
+<p><strong>Enable:</strong></p>
+<pre><code>localStorage.omHeaderText = "Find matching outfits"
 </code></pre>
-<p><strong>Variant 2</strong> - <em>"Make an Outfit"</em> text with lines:</p>
-<pre><code>localStorage.omVariantHeader = 'makeoutfit'
+<p><strong>Disable:</strong></p>
+<pre><code>delete localStorage.omHeaderText
 </code></pre>
+<h4 id="logo">Logo</h4>
+<p>Sets the visibility of the Outfit Maker logo in the section header.</p>
+<p><img alt="OM logo" src="./img/om-logo.png" /></p>
+<p><strong>Enable:</strong></p>
+<pre><code>localStorage.omHeaderLogo = true
+</code></pre>
+<p><strong>Disable:</strong></p>
+<pre><code>localStorage.omHeaderLogo = false
+</code></pre>
+<h4 id="order-of-the-logo">Order of the logo</h4>
+<p>Sets whether the logo is displayed before or after the <em>Header text</em>, provided that <em>Header text</em> is set (<em>localStorage.omHeaderText</em>).</p>
+<p><strong>Before Header text:</strong></p>
+<pre><code>localStorage.omHeaderLogoFirst = true
+</code></pre>
+<p><img alt="Logo first" src="./img/logo-first.png" /></p>
+<p><strong>After Header text:</strong></p>
+<pre><code>localStorage.omHeaderLogoFirst = false
+</code></pre>
+<p><img alt="Logo second" src="./img/logo-second.png" /></p>
+<h4 id="new-label"><em>New!</em> label</h4>
+<p>Sets the visibility of the <em>New!</em> label in the section header. If Outfit Maker logo is displayed, the label will follow the logo, otherwise it will follow the <em>Header text</em>.</p>
+<p><img alt="New label" src="./img/new-label.png" /></p>
+<p><strong>Enable:</strong></p>
+<pre><code>localStorage.omHeaderNew = true
+</code></pre>
+<p><strong>Disable:</strong></p>
+<pre><code>localStorage.omHeaderNew = false
+</code></pre>
+<h4 id="header-style">Header style</h4>
+<p><strong>Variant 1</strong> - Has separator lines before and after section header (like <em>You May Also Like</em> on the PDP):</p>
+<pre><code>localStorage.omHeaderStyle = 1
+</code></pre>
+<p><img alt="Lined header" src="./img/header-lined.png" /></p>
+<blockquote>
+<p>Note: Only one line of text can be displayed, so either <em>Header text</em> or the Outfit Maker is shown, but needs to be set explicitly: if the logo should be shown, disable <em>Header text</em> and vice versa.</p>
+</blockquote>
+<p><strong>Variant 2</strong> - Doesn't have separator lines, section header is aligned to the center:</p>
+<pre><code>localStorage.omHeaderStyle = 2
+</code></pre>
+<p><img alt="Lined header" src="./img/header-no-line.png" /></p>
 <h3 id="match-cards">Match cards</h3>
 <p><strong>Variant 1</strong> - Default Variant with the locks in the corners:</p>
 <pre><code>localStorage.omCardVariant = 1
 </code></pre>
-<p><img alt="Match Card - Variant 1" src="./cardv1.png" /></p>
+<p><img alt="Match Card - Variant 1" src="./img/cardv1.png" /></p>
 <p><strong>Variant 2</strong> - <em>"Lock item"/"Unlock item"</em> button appears on cards on hover with tooltip:</p>
 <pre><code>localStorage.omCardVariant = 2
 </code></pre>
-<p><img alt="Match Card - Variant 2" src="./cardv2.png" /></p></div>
+<p><img alt="Match Card - Variant 2" src="./img/cardv2.png" /></p></div>
         </div>
 
         <footer class="col-md-12">
@@ -156,5 +200,5 @@
 
 <!--
 MkDocs version : 0.16.0
-Build Date UTC : 2016-11-28 21:49:31
+Build Date UTC : 2016-11-29 12:59:54
 -->
