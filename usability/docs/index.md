@@ -116,7 +116,7 @@ Sets the visibility of the *New!* label in the section header. If Outfit Maker l
 
 ![Lined header](img/header-lined.png)
 
-> Note: Only one line of text can be displayed, so either *Header text* or the Outfit Maker is shown, but needs to be set explicitly: if the logo should be shown, disable *Header text* and vice versa.
+> With the lined header style only one line of text can be displayed, so either *Header text* or the Outfit Maker is shown, but needs to be set explicitly: if the logo should be shown, disable *Header text* and vice versa.
 
 **Variant 2** - Doesn't have separator lines, section header is aligned to the center:
 
@@ -137,3 +137,5 @@ Sets the visibility of the *New!* label in the section header. If Outfit Maker l
 	localStorage.omCardVariant = 2
 
 ![Match Card - Variant 2](img/cardv2.png)
+
+> This version could be further enhanced with a more visible locking animation and the wording of the tooltip should be changed as well. Although it has the benefit that our UI is less cluttered. When I showed the prototype to outsider, unbiased people with the original card style with the locks in the corners, the reacton was that something is too much, and that it's probably all these circular shapes in the corners. On the other hand the unlocked lock icon is not a clear sign of a lock, and was mistaken with an iron :)

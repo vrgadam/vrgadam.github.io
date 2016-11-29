@@ -32,3 +32,14 @@ h4 {
 .col-md-9 img {
     margin: 10px auto 15px auto;
 }
+
+blockquote {
+    border: 1px solid rgb(47, 164, 231);
+    background-color: rgba(47, 164, 231, .88);
+    border-radius: 5px;
+}
+
+blockquote p {
+    font-size: 14px;
+    color: white;
+}
