@@ -137,5 +137,20 @@ Sets the visibility of the *New!* label in the section header. If Outfit Maker l
 	localStorage.omCardVariant = 2
 
 ![Match Card - Variant 2](img/cardv2.png)
+![Match Card - Variant 2 locked](img/cardv2-locked.png)
 
-> This version could be further enhanced with a more visible locking animation and the wording of the tooltip should be changed as well. Although it has the benefit that our UI is less cluttered. When I showed the prototype to outsider, unbiased people with the original card style with the locks in the corners, the reacton was that something is too much, and that it's probably all these circular shapes in the corners. On the other hand the unlocked lock icon is not a clear sign of a lock, and was mistaken with an iron :)
+### Refresh button
+
+**Variant 1** - The well known version:
+
+	localStorage.omRefreshVariant = 1
+
+![Refresh - Variant 1](img/plain-refresh.png)
+
+**Variant 2** - A slightly lifted version based on circular floated action button UX recommendations, also has a little hover animation.
+
+	localStorage.omRefreshVariant = 2
+
+![Refresh - Variant 2](img/lifted-refresh.png)
+
+> The lift effect could be improved and unified with the surroundings, I basically copied what google does with their circular floated buttons. I think this helps with identifying this irregular element as a button.

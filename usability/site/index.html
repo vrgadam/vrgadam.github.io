@@ -160,9 +160,19 @@
 <p><strong>Variant 2</strong> - <em>"Lock item"/"Unlock item"</em> button appears on cards on hover with tooltip:</p>
 <pre><code>localStorage.omCardVariant = 2
 </code></pre>
-<p><img alt="Match Card - Variant 2" src="./img/cardv2.png" /></p>
+<p><img alt="Match Card - Variant 2" src="./img/cardv2.png" />
+<img alt="Match Card - Variant 2 locked" src="./img/cardv2-locked.png" /></p>
+<h3 id="refresh-button">Refresh button</h3>
+<p><strong>Variant 1</strong> - The well known version:</p>
+<pre><code>localStorage.omRefreshVariant = 1
+</code></pre>
+<p><img alt="Refresh - Variant 1" src="./img/plain-refresh.png" /></p>
+<p><strong>Variant 2</strong> - A slightly lifted version based on circular floated action button UX recommendations, also has a little hover animation.</p>
+<pre><code>localStorage.omRefreshVariant = 2
+</code></pre>
+<p><img alt="Refresh - Variant 2" src="./img/lifted-refresh.png" /></p>
 <blockquote>
-<p>This version could be further enhanced with a more visible locking animation and the wording of the tooltip should be changed as well. Although it has the benefit that our UI is less cluttered. When I showed the prototype to outsider, unbiased people with the original card style with the locks in the corners, the reacton was that something is too much, and that it's probably all these circular shapes in the corners. On the other hand the unlocked lock icon is not a clear sign of a lock, and was mistaken with an iron :)</p>
+<p>The lift effect could be improved and unified with the surroundings, I basically copied what google does with their circular floated buttons. I think this helps with identifying this irregular element as a button.</p>
 </blockquote></div>
         </div>
 
@@ -203,5 +213,5 @@
 
 <!--
 MkDocs version : 0.16.0
-Build Date UTC : 2016-11-29 13:18:04
+Build Date UTC : 2016-11-30 16:39:47
 -->
