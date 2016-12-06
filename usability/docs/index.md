@@ -153,4 +153,45 @@ Sets the visibility of the *New!* label in the section header. If Outfit Maker l
 
 ![Refresh - Variant 2](img/lifted-refresh.png)
 
-> The lift effect could be improved and unified with the surroundings, I basically copied what google does with their circular floated buttons. I think this helps with identifying this irregular element as a button.
+### My Saved Outfits
+
+#### Outfit alignment
+
+**Variant 1** - Outfits are aligned to the center:
+
+	localStorage.omOutfitLeftAligned = false
+
+![Centered](img/outfits-centered.png)
+
+**Variant 2** - Outfits are aligned to the left:
+
+	localStorage.omOutfitLeftAligned = true
+
+![Left aligned](img/outfits-left.png)
+
+## Extra features
+
+### *My Saved Outfits* in Account menu
+
+**Enable:**
+
+	localStorage.omAccountMenuLink = true
+
+**Disable:**
+
+	localStorage.omAccountMenuLink = false
+
+![Account menu link](img/account-menu.png)
+
+
+### *My Saved Outfits* in primary site navigation
+
+**Enable:**
+
+	localStorage.omPrimaryNavLink = true
+
+**Disable:**
+
+	localStorage.omPrimaryNavLink = false
+
+![Primary navigation link](img/primary-om-btn.png)
