@@ -94,19 +94,29 @@ Sets whether the logo is displayed before or after the *Header text*, provided t
 
 ![Logo second](img/logo-second.png)
 
-#### *New!* label
+#### Header label
 
-Sets the visibility of the *New!* label in the section header. If Outfit Maker logo is displayed, the label will follow the logo, otherwise it will follow the *Header text*.
+Sets the visibility of the header label in the section header. If Outfit Maker logo is displayed, the label will follow the logo, otherwise it will follow the *Header text*.
 
 ![New label](img/new-label.png)
 
 **Enable:**
 
-	localStorage.omHeaderNew = true
+	localStorage.omHeaderLabel = true
 
 **Disable:**
 
-	localStorage.omHeaderNew = false
+	localStorage.omHeaderLabel = false
+
+#### Header label text
+
+Sets the displayed text of the header label. Defaults to *"New!"*.
+
+**Change label text:**
+
+	localStorage.omHeaderLabelText = 'Beta'
+
+![New label](img/beta-label.png)
 
 #### Header style
 

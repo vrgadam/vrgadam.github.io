@@ -132,15 +132,21 @@
 <pre><code>localStorage.omHeaderLogoFirst = false
 </code></pre>
 <p><img alt="Logo second" src="./img/logo-second.png" /></p>
-<h4 id="new-label"><em>New!</em> label</h4>
-<p>Sets the visibility of the <em>New!</em> label in the section header. If Outfit Maker logo is displayed, the label will follow the logo, otherwise it will follow the <em>Header text</em>.</p>
+<h4 id="header-label">Header label</h4>
+<p>Sets the visibility of the header label in the section header. If Outfit Maker logo is displayed, the label will follow the logo, otherwise it will follow the <em>Header text</em>.</p>
 <p><img alt="New label" src="./img/new-label.png" /></p>
 <p><strong>Enable:</strong></p>
-<pre><code>localStorage.omHeaderNew = true
+<pre><code>localStorage.omHeaderLabel = true
 </code></pre>
 <p><strong>Disable:</strong></p>
-<pre><code>localStorage.omHeaderNew = false
+<pre><code>localStorage.omHeaderLabel = false
 </code></pre>
+<h4 id="header-label-text">Header label text</h4>
+<p>Sets the displayed text of the header label. Defaults to <em>"New!"</em>.</p>
+<p><strong>Change label text:</strong></p>
+<pre><code>localStorage.omHeaderLabelText = 'Beta'
+</code></pre>
+<p><img alt="New label" src="./img/beta-label.png" /></p>
 <h4 id="header-style">Header style</h4>
 <p><strong>Variant 1</strong> - Has separator lines before and after section header (like <em>You May Also Like</em> on the PDP):</p>
 <pre><code>localStorage.omHeaderStyle = 1
@@ -238,5 +244,5 @@
 
 <!--
 MkDocs version : 0.16.0
-Build Date UTC : 2016-12-06 16:21:06
+Build Date UTC : 2016-12-16 10:45:05
 -->
