@@ -105,6 +105,6 @@ Copy it to a file, collect items in separate files per domain:
 
 * `tops.json`
 * `bottoms.json`
-* `jewelries.json`
+* `jewellery.json`
 * `shoes.json`
 * `bags.json`
