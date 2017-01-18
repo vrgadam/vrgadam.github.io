@@ -56,7 +56,7 @@ Copy and paste the following code snippet to the *cjs* Chrome extension.
 	      var colors = product._embedded['http://hautelook.com/rels/variations'].colors;
 
 	      for (var i = 0; i < colors.length; i++) {
-	        if (colors[i].color === color) {
+	        if (colors[i].color.toUpperCase() === color.toUpperCase()) {
 	          $.each(colors[i]._links['http://hautelook.com/rels/images'], function(index, image) {
 	            images.push(image.href);
 	          });
@@ -81,18 +81,19 @@ Copy and paste the following code snippet to the *cjs* Chrome extension.
 	  }
 
 	  loadScript('https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', function() {
-	  	$('body').append(createElement('button', null, null, 'Print product data')
-	  		.click(printProductData)
-	  		.css({
-	  			position: 'fixed',
-	  			bottom: 0,
-	  			right: 0,
-	  			margin: '20px 30px',
-	  			padding: '10px 20px',
-	  			zIndex: 1000
-	  		}));
+	    $('body').append(createElement('button', null, null, 'Print product data')
+	      .click(printProductData)
+	      .css({
+	        position: 'fixed',
+	        bottom: 0,
+	        right: 0,
+	        margin: '20px 30px',
+	        padding: '10px 20px',
+	        zIndex: 1000
+	      }));
 	  });
 	} )()
+
 
 
 ## Get product data
