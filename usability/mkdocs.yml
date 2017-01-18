@@ -1,5 +1,8 @@
 site_name: SSP Usability
 dev_addr: '127.0.0.1:9200'
+pages:
+    - OM: index.md
+    - Product data: product-data.md
 extra_javascript:
     - custom.js
 extra_css:
