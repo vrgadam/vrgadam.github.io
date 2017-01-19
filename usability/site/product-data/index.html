@@ -151,6 +151,7 @@
 
       var productInfo = {};
       productInfo.id = id;
+      productInfo.url = window.location.href;
       productInfo.brand = product.brand_name;
       productInfo.name = product.name;
       productInfo.salePrice = product._embedded['http://hautelook.com/rels/skus'][0].price_sale.toFixed(2);
@@ -167,15 +168,15 @@
 
   loadScript('https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', function() {
     $('body').append(createElement('button', null, null, 'Print product data')
-      .click(printProductData)
-      .css({
-        position: 'fixed',
-        bottom: 0,
-        right: 0,
-        margin: '20px 30px',
-        padding: '10px 20px',
-        zIndex: 1000
-      }));
+        .click(printProductData)
+        .css({
+            position: 'fixed',
+            bottom: 0,
+            right: 0,
+            margin: '20px 30px',
+            padding: '10px 20px',
+            zIndex: 1000
+        }));
   });
 } )()
 </code></pre>
