@@ -22,7 +22,6 @@ Copy and paste the following code snippet to the *cjs* Chrome extension.
 	        var localUrl = 'https://localhost:8000/script.js';
 	        var remoteUrl = 'https://s3.amazonaws.com/sspinc-usability/outfitmaker/nordstrom-rack/script.js';
 	        loadScript(localStorage.omLocal === 'true' ? localUrl : remoteUrl, function() {
-	            console.clear();
 	            console.log('%cUSER TESTING SCRIPT LOADED', logStyle);
 	        })
 	    });
