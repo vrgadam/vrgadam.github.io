@@ -4,7 +4,7 @@
 Copy and paste the following code snippet to the *cjs* Chrome extension.
 
 	(function() {
-		var logStyle = 'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9';
+	    var logStyle = 'color:#2980b9;padding:2px 50px;font-size:20px;line-height: 60px;border:1px dashed #2980b9';
 
 	    function loadScript(url, callback) {
 	        var script = document.createElement('script');
@@ -19,7 +19,9 @@ Copy and paste the following code snippet to the *cjs* Chrome extension.
 	    }
 
 	    loadScript('https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', function() {
-	        loadScript('https://s3.amazonaws.com/sspinc-usability/outfitmaker/nordstrom-rack/script.js', function() {
+	        var localUrl = 'https://localhost:8000/script.js';
+	        var remoteUrl = 'https://s3.amazonaws.com/sspinc-usability/outfitmaker/nordstrom-rack/script.js';
+	        loadScript(localStorage.omLocal === 'true' ? localUrl : remoteUrl, function() {
 	            console.clear();
 	            console.log('%cUSER TESTING SCRIPT LOADED', logStyle);
 	        })
