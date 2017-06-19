@@ -1,6 +1,29 @@
-<h1>Hello, Dear Visitor!</h1>
-<p>I'm Adam, and here you can visit my incredible project:</p>
-<a href="react/index.html">GO TO REACT PRACTICE APPLICATION!!</a>
+<style type="text/css">
+  #app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+</style>
+
+<script>
+  window.onButtonClick = function() {
+    console.log('button was clicked real good');
+  }
+</script>
+
+<div id='app'>
+  <div class="content">
+      <h1>Hello, Dear Visitor!</h1>
+      <p>I'm Adam, and here you can visit my incredible project:</p>
+      <a href="react/index.html">GO TO REACT PRACTICE APPLICATION!!</a>
+
+      <span>Now I have hotjar on the page</span>
+      <button onclick="onButtonClick()">That's awesome</button>
+  </div>
+  
+</div>
+
 <!-- Hotjar Tracking Code for vrgadam.github.io -->
 <script>
     (function(h,o,t,j,a,r){
