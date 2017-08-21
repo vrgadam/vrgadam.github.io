@@ -1,0 +1,2 @@
+webpackJsonp([0x78c4007fd4fea40],{"./node_modules/json-loader/index.js!./.cache/json/sections-index-testimonials.json":function(e,n){e.exports={pathContext:{}}}});
+//# sourceMappingURL=path---sections-index-testimonials-a0e39f21c11f6a62c5ab.js.map

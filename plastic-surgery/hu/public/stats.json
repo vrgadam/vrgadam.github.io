@@ -1,0 +1,124 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-sections-index-testimonials-jsx": [
+      "component---src-pages-sections-index-testimonials-jsx-0d8a1d975960cbcf0001.js",
+      "component---src-pages-sections-index-testimonials-jsx-0d8a1d975960cbcf0001.js.map"
+    ],
+    "path---sections-index-testimonials": [
+      "path---sections-index-testimonials-a0e39f21c11f6a62c5ab.js",
+      "path---sections-index-testimonials-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-sections-index-about-jsx": [
+      "component---src-pages-sections-index-about-jsx-767dc3e2b9537084bdcd.js",
+      "component---src-pages-sections-index-about-jsx-767dc3e2b9537084bdcd.js.map"
+    ],
+    "path---sections-index-procedures": [
+      "path---sections-index-procedures-a0e39f21c11f6a62c5ab.js",
+      "path---sections-index-procedures-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---sections-index-noseart": [
+      "path---sections-index-noseart-a0e39f21c11f6a62c5ab.js",
+      "path---sections-index-noseart-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---blog": [
+      "path---blog-a0e39f21c11f6a62c5ab.js",
+      "path---blog-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---sections-blog-blog-post": [
+      "path---sections-blog-blog-post-a0e39f21c11f6a62c5ab.js",
+      "path---sections-blog-blog-post-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---sections-index-procedure-card": [
+      "path---sections-index-procedure-card-a0e39f21c11f6a62c5ab.js",
+      "path---sections-index-procedure-card-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-contact-jsx": [
+      "component---src-pages-contact-jsx-362f3cc40b0554719884.js",
+      "component---src-pages-contact-jsx-362f3cc40b0554719884.js.map"
+    ],
+    "component---src-pages-sections-index-noseart-jsx": [
+      "component---src-pages-sections-index-noseart-jsx-36c5a2c6f6017cc832f7.js",
+      "component---src-pages-sections-index-noseart-jsx-36c5a2c6f6017cc832f7.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---sections-index-home": [
+      "path---sections-index-home-a0e39f21c11f6a62c5ab.js",
+      "path---sections-index-home-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-sections-index-home-jsx": [
+      "component---src-pages-sections-index-home-jsx-9613b47d47e79713999b.js",
+      "component---src-pages-sections-index-home-jsx-9613b47d47e79713999b.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-0b1b07bff63d8b94428e.js",
+      "component---src-layouts-index-js-0b1b07bff63d8b94428e.js.map"
+    ],
+    "component---src-pages-sections-index-testimonial-jsx": [
+      "component---src-pages-sections-index-testimonial-jsx-ef2a027912441067e275.js",
+      "component---src-pages-sections-index-testimonial-jsx-ef2a027912441067e275.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-rhinoplasty-jsx": [
+      "component---src-pages-rhinoplasty-jsx-9447a4ecf8fbf1ac258b.js",
+      "component---src-pages-rhinoplasty-jsx-9447a4ecf8fbf1ac258b.js.map"
+    ],
+    "path---rhinoplasty": [
+      "path---rhinoplasty-a0e39f21c11f6a62c5ab.js",
+      "path---rhinoplasty-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-sections-blog-blog-post-jsx": [
+      "component---src-pages-sections-blog-blog-post-jsx-1fc587dcd7d08f521ca0.js",
+      "component---src-pages-sections-blog-blog-post-jsx-1fc587dcd7d08f521ca0.js.map"
+    ],
+    "path---sections-index-about": [
+      "path---sections-index-about-a0e39f21c11f6a62c5ab.js",
+      "path---sections-index-about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "commons": [
+      "commons-df3f96321da7a3beeefa.js",
+      "commons-df3f96321da7a3beeefa.js.map"
+    ],
+    "component---src-pages-sections-index-procedures-jsx": [
+      "component---src-pages-sections-index-procedures-jsx-f71b6addc2baab11f839.js",
+      "component---src-pages-sections-index-procedures-jsx-f71b6addc2baab11f839.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-blog-jsx": [
+      "component---src-pages-blog-jsx-c8a9d9340316f460e66c.js",
+      "component---src-pages-blog-jsx-c8a9d9340316f460e66c.js.map"
+    ],
+    "component---src-pages-index-jsx": [
+      "component---src-pages-index-jsx-8f4a2a2d06122d3f4059.js",
+      "component---src-pages-index-jsx-8f4a2a2d06122d3f4059.js.map"
+    ],
+    "path---sections-index-testimonial": [
+      "path---sections-index-testimonial-a0e39f21c11f6a62c5ab.js",
+      "path---sections-index-testimonial-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-bfa3beba7aa0e534b23b.js",
+      "app-bfa3beba7aa0e534b23b.js.map"
+    ],
+    "component---src-pages-sections-index-request-jsx": [
+      "component---src-pages-sections-index-request-jsx-5fdc779dcdadd63a67c2.js",
+      "component---src-pages-sections-index-request-jsx-5fdc779dcdadd63a67c2.js.map"
+    ],
+    "path---sections-index-request": [
+      "path---sections-index-request-a0e39f21c11f6a62c5ab.js",
+      "path---sections-index-request-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-sections-index-procedure-card-jsx": [
+      "component---src-pages-sections-index-procedure-card-jsx-8722c247e903013dcddb.js",
+      "component---src-pages-sections-index-procedure-card-jsx-8722c247e903013dcddb.js.map"
+    ]
+  }
+}
