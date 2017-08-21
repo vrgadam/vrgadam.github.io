@@ -758,7 +758,7 @@ webpackJsonp([15178676390636814000],{
 	    pages = newPages;
 	    var pathPrefix = "";
 	    if (true) {
-	      pathPrefix = ("/plastic-surgery/\"en\"");
+	      pathPrefix = ("/plastic-surgery/hu");
 	    }
 	    findPage = (0, _findPage2.default)(newPages, pathPrefix);
 	  },
@@ -1284,7 +1284,7 @@ webpackJsonp([15178676390636814000],{
 	
 	var pathPrefix = "/";
 	if (true) {
-	  pathPrefix = ("/plastic-surgery/\"en\"") + "/";
+	  pathPrefix = ("/plastic-surgery/hu") + "/";
 	}
 	
 	if ("serviceWorker" in navigator) {
