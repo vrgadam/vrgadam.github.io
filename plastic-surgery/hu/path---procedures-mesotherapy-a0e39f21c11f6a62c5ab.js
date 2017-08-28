@@ -1,0 +1,2 @@
+webpackJsonp([0x3d2bede87c429800],{"./node_modules/json-loader/index.js!./.cache/json/procedures-mesotherapy.json":function(e,o){e.exports={pathContext:{}}}});
+//# sourceMappingURL=path---procedures-mesotherapy-a0e39f21c11f6a62c5ab.js.map

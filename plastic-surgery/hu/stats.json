@@ -1,124 +1,132 @@
 {
   "assetsByChunkName": {
-    "component---src-pages-sections-index-testimonials-jsx": [
-      "component---src-pages-sections-index-testimonials-jsx-0d8a1d975960cbcf0001.js",
-      "component---src-pages-sections-index-testimonials-jsx-0d8a1d975960cbcf0001.js.map"
+    "component---src-pages-procedures-prp-treatment-jsx": [
+      "component---src-pages-procedures-prp-treatment-jsx-5a686a4d49c707d89b1b.js",
+      "component---src-pages-procedures-prp-treatment-jsx-5a686a4d49c707d89b1b.js.map"
     ],
-    "path---sections-index-testimonials": [
-      "path---sections-index-testimonials-a0e39f21c11f6a62c5ab.js",
-      "path---sections-index-testimonials-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-sections-index-about-jsx": [
-      "component---src-pages-sections-index-about-jsx-767dc3e2b9537084bdcd.js",
-      "component---src-pages-sections-index-about-jsx-767dc3e2b9537084bdcd.js.map"
-    ],
-    "path---sections-index-procedures": [
-      "path---sections-index-procedures-a0e39f21c11f6a62c5ab.js",
-      "path---sections-index-procedures-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---sections-index-noseart": [
-      "path---sections-index-noseart-a0e39f21c11f6a62c5ab.js",
-      "path---sections-index-noseart-a0e39f21c11f6a62c5ab.js.map"
+    "path---procedures-hyperhidrosis-treatment": [
+      "path---procedures-hyperhidrosis-treatment-a0e39f21c11f6a62c5ab.js",
+      "path---procedures-hyperhidrosis-treatment-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---blog": [
       "path---blog-a0e39f21c11f6a62c5ab.js",
       "path---blog-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---sections-blog-blog-post": [
-      "path---sections-blog-blog-post-a0e39f21c11f6a62c5ab.js",
-      "path---sections-blog-blog-post-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "path---sections-index-procedure-card": [
-      "path---sections-index-procedure-card-a0e39f21c11f6a62c5ab.js",
-      "path---sections-index-procedure-card-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "component---src-pages-contact-jsx": [
-      "component---src-pages-contact-jsx-362f3cc40b0554719884.js",
-      "component---src-pages-contact-jsx-362f3cc40b0554719884.js.map"
-    ],
-    "component---src-pages-sections-index-noseart-jsx": [
-      "component---src-pages-sections-index-noseart-jsx-36c5a2c6f6017cc832f7.js",
-      "component---src-pages-sections-index-noseart-jsx-36c5a2c6f6017cc832f7.js.map"
+      "component---src-pages-contact-jsx-69f10e1f48f4fac915cb.js",
+      "component---src-pages-contact-jsx-69f10e1f48f4fac915cb.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
-    "path---sections-index-home": [
-      "path---sections-index-home-a0e39f21c11f6a62c5ab.js",
-      "path---sections-index-home-a0e39f21c11f6a62c5ab.js.map"
+    "path---procedures-mesotherapy": [
+      "path---procedures-mesotherapy-a0e39f21c11f6a62c5ab.js",
+      "path---procedures-mesotherapy-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-sections-index-home-jsx": [
-      "component---src-pages-sections-index-home-jsx-d96d8b15c19e04442fa1.js",
-      "component---src-pages-sections-index-home-jsx-d96d8b15c19e04442fa1.js.map"
+    "component---src-pages-procedures-baldness-treatment-jsx": [
+      "component---src-pages-procedures-baldness-treatment-jsx-5a686a4d49c707d89b1b.js",
+      "component---src-pages-procedures-baldness-treatment-jsx-5a686a4d49c707d89b1b.js.map"
+    ],
+    "component---src-pages-procedures-eyelid-surgery-jsx": [
+      "component---src-pages-procedures-eyelid-surgery-jsx-5a686a4d49c707d89b1b.js",
+      "component---src-pages-procedures-eyelid-surgery-jsx-5a686a4d49c707d89b1b.js.map"
+    ],
+    "path---procedures-skin-treatment": [
+      "path---procedures-skin-treatment-a0e39f21c11f6a62c5ab.js",
+      "path---procedures-skin-treatment-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---procedures-rhinoplasty": [
+      "path---procedures-rhinoplasty-a0e39f21c11f6a62c5ab.js",
+      "path---procedures-rhinoplasty-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-108aeb90e8e50b11872d.js",
-      "component---src-layouts-index-js-108aeb90e8e50b11872d.js.map"
+      "component---src-layouts-index-js-6916314ddbf25fb61dfe.js",
+      "component---src-layouts-index-js-6916314ddbf25fb61dfe.js.map"
     ],
-    "component---src-pages-sections-index-testimonial-jsx": [
-      "component---src-pages-sections-index-testimonial-jsx-ef2a027912441067e275.js",
-      "component---src-pages-sections-index-testimonial-jsx-ef2a027912441067e275.js.map"
+    "component---src-pages-procedures-hyperhidrosis-treatment-jsx": [
+      "component---src-pages-procedures-hyperhidrosis-treatment-jsx-5a686a4d49c707d89b1b.js",
+      "component---src-pages-procedures-hyperhidrosis-treatment-jsx-5a686a4d49c707d89b1b.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-procedures-rhinoplasty-jsx": [
+      "component---src-pages-procedures-rhinoplasty-jsx-5a686a4d49c707d89b1b.js",
+      "component---src-pages-procedures-rhinoplasty-jsx-5a686a4d49c707d89b1b.js.map"
+    ],
     "component---src-pages-rhinoplasty-jsx": [
-      "component---src-pages-rhinoplasty-jsx-9447a4ecf8fbf1ac258b.js",
-      "component---src-pages-rhinoplasty-jsx-9447a4ecf8fbf1ac258b.js.map"
+      "component---src-pages-rhinoplasty-jsx-1bfae021b45190f58fe2.js",
+      "component---src-pages-rhinoplasty-jsx-1bfae021b45190f58fe2.js.map"
+    ],
+    "path---procedures-prp-treatment": [
+      "path---procedures-prp-treatment-a0e39f21c11f6a62c5ab.js",
+      "path---procedures-prp-treatment-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---rhinoplasty": [
       "path---rhinoplasty-a0e39f21c11f6a62c5ab.js",
       "path---rhinoplasty-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-sections-blog-blog-post-jsx": [
-      "component---src-pages-sections-blog-blog-post-jsx-1fc587dcd7d08f521ca0.js",
-      "component---src-pages-sections-blog-blog-post-jsx-1fc587dcd7d08f521ca0.js.map"
-    ],
-    "path---sections-index-about": [
-      "path---sections-index-about-a0e39f21c11f6a62c5ab.js",
-      "path---sections-index-about-a0e39f21c11f6a62c5ab.js.map"
+    "path---procedures-wrinkles": [
+      "path---procedures-wrinkles-a0e39f21c11f6a62c5ab.js",
+      "path---procedures-wrinkles-a0e39f21c11f6a62c5ab.js.map"
     ],
     "commons": [
-      "commons-df3f96321da7a3beeefa.js",
-      "commons-df3f96321da7a3beeefa.js.map"
+      "commons-31fc841aa8bc763b1f22.js",
+      "commons-31fc841aa8bc763b1f22.js.map"
     ],
-    "component---src-pages-sections-index-procedures-jsx": [
-      "component---src-pages-sections-index-procedures-jsx-f71b6addc2baab11f839.js",
-      "component---src-pages-sections-index-procedures-jsx-f71b6addc2baab11f839.js.map"
+    "component---src-pages-procedures-skin-treatment-jsx": [
+      "component---src-pages-procedures-skin-treatment-jsx-5a686a4d49c707d89b1b.js",
+      "component---src-pages-procedures-skin-treatment-jsx-5a686a4d49c707d89b1b.js.map"
+    ],
+    "component---src-pages-procedures-ear-surgery-jsx": [
+      "component---src-pages-procedures-ear-surgery-jsx-5a686a4d49c707d89b1b.js",
+      "component---src-pages-procedures-ear-surgery-jsx-5a686a4d49c707d89b1b.js.map"
     ],
     "path---contact": [
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-blog-jsx": [
-      "component---src-pages-blog-jsx-c8a9d9340316f460e66c.js",
-      "component---src-pages-blog-jsx-c8a9d9340316f460e66c.js.map"
+      "component---src-pages-blog-jsx-83c36a0d93fb1cfa34b7.js",
+      "component---src-pages-blog-jsx-83c36a0d93fb1cfa34b7.js.map"
+    ],
+    "path---procedures-baldness-treatment": [
+      "path---procedures-baldness-treatment-a0e39f21c11f6a62c5ab.js",
+      "path---procedures-baldness-treatment-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---procedures-eyelid-surgery": [
+      "path---procedures-eyelid-surgery-a0e39f21c11f6a62c5ab.js",
+      "path---procedures-eyelid-surgery-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-procedures-breast-surgery-jsx": [
+      "component---src-pages-procedures-breast-surgery-jsx-5a686a4d49c707d89b1b.js",
+      "component---src-pages-procedures-breast-surgery-jsx-5a686a4d49c707d89b1b.js.map"
     ],
     "component---src-pages-index-jsx": [
-      "component---src-pages-index-jsx-381b4886ccdef990c39e.js",
-      "component---src-pages-index-jsx-381b4886ccdef990c39e.js.map"
+      "component---src-pages-index-jsx-fd177c8faa89e40522af.js",
+      "component---src-pages-index-jsx-fd177c8faa89e40522af.js.map"
     ],
-    "path---sections-index-testimonial": [
-      "path---sections-index-testimonial-a0e39f21c11f6a62c5ab.js",
-      "path---sections-index-testimonial-a0e39f21c11f6a62c5ab.js.map"
+    "component---src-pages-procedures-wrinkles-jsx": [
+      "component---src-pages-procedures-wrinkles-jsx-5a686a4d49c707d89b1b.js",
+      "component---src-pages-procedures-wrinkles-jsx-5a686a4d49c707d89b1b.js.map"
+    ],
+    "path---procedures-ear-surgery": [
+      "path---procedures-ear-surgery-a0e39f21c11f6a62c5ab.js",
+      "path---procedures-ear-surgery-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-b0335b64983dc45fc634.js",
-      "app-b0335b64983dc45fc634.js.map"
+      "app-85b3d62ddb902c13b997.js",
+      "app-85b3d62ddb902c13b997.js.map"
     ],
-    "component---src-pages-sections-index-request-jsx": [
-      "component---src-pages-sections-index-request-jsx-5fdc779dcdadd63a67c2.js",
-      "component---src-pages-sections-index-request-jsx-5fdc779dcdadd63a67c2.js.map"
+    "component---src-pages-procedures-mesotherapy-jsx": [
+      "component---src-pages-procedures-mesotherapy-jsx-5a686a4d49c707d89b1b.js",
+      "component---src-pages-procedures-mesotherapy-jsx-5a686a4d49c707d89b1b.js.map"
     ],
-    "path---sections-index-request": [
-      "path---sections-index-request-a0e39f21c11f6a62c5ab.js",
-      "path---sections-index-request-a0e39f21c11f6a62c5ab.js.map"
-    ],
-    "component---src-pages-sections-index-procedure-card-jsx": [
-      "component---src-pages-sections-index-procedure-card-jsx-8722c247e903013dcddb.js",
-      "component---src-pages-sections-index-procedure-card-jsx-8722c247e903013dcddb.js.map"
+    "path---procedures-breast-surgery": [
+      "path---procedures-breast-surgery-a0e39f21c11f6a62c5ab.js",
+      "path---procedures-breast-surgery-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }

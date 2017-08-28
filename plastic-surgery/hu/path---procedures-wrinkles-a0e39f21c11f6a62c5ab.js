@@ -1,0 +1,2 @@
+webpackJsonp([0x93a5335f99bb6800],{"./node_modules/json-loader/index.js!./.cache/json/procedures-wrinkles.json":function(e,o){e.exports={pathContext:{}}}});
+//# sourceMappingURL=path---procedures-wrinkles-a0e39f21c11f6a62c5ab.js.map

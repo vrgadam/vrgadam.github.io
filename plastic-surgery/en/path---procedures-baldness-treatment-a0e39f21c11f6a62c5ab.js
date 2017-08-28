@@ -1,0 +1,2 @@
+webpackJsonp([0xab379e15b8a50800],{"./node_modules/json-loader/index.js!./.cache/json/procedures-baldness-treatment.json":function(e,n){e.exports={pathContext:{}}}});
+//# sourceMappingURL=path---procedures-baldness-treatment-a0e39f21c11f6a62c5ab.js.map
