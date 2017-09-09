@@ -1,2 +1,2 @@
-webpackJsonp([0x53b406488fb32400],{"./node_modules/json-loader/index.js!./.cache/json/procedures-skin-treatment.json":function(e,n){e.exports={pathContext:{}}}});
+webpackJsonp([92032664637363],{"./node_modules/json-loader/index.js!./.cache/json/procedures-skin-treatment.json":function(e,n){e.exports={pathContext:{}}}});
 //# sourceMappingURL=path---procedures-skin-treatment-a0e39f21c11f6a62c5ab.js.map
