@@ -65,9 +65,9 @@
       "path---procedures-wrinkles-a0e39f21c11f6a62c5ab.js.map"
     ],
     "commons": [
-      "commons-39e8fdf15a27a3197c59.js",
+      "commons-7d701ca08f7a3d78b7f1.js",
       "build-js-styles.css",
-      "commons-39e8fdf15a27a3197c59.js.map",
+      "commons-7d701ca08f7a3d78b7f1.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-procedures-skin-treatment-jsx": [
@@ -115,8 +115,8 @@
       "path---procedures-ear-surgery-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-5517a6f1dc784dc0557d.js",
-      "app-5517a6f1dc784dc0557d.js.map"
+      "app-c382c5b7ce6492efaf74.js",
+      "app-c382c5b7ce6492efaf74.js.map"
     ],
     "path---prices": [
       "path---prices-a0e39f21c11f6a62c5ab.js",
